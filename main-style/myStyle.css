@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(39, 37, 29);
+}
+.navBar{
+    height: 100%;
+width:min-content;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 99999;
+}
+.navMenu{
+    background-color:rgb(88, 72, 12);
+    display: none; 
+     
+     justify-content: space-between; 
+    flex-direction: column;
+}
+.navMenu ul li{
+    cursor: pointer;
+}
+.iconImage{
+    width: 30px;
+}
+.navCollapsIcon{
+    width: 30px;
+    font-size: 25px;
+
+}
+.navBarMainList{
+    
+    transform:translateY(500px);
+    transition: all 1000ms 0.1s;
+}
+.icon,.navCollapsIcon{
+    cursor: pointer;
+}
+/* home section*/
+.items{
+   
+    box-sizing: border-box;
+
+    
+
+}
+.ItemName{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform:translateY(250px);
+    transition: all 1s ;
+
+
+}
+.card{
+    overflow: hidden;
+    cursor: pointer;
+}
+.card:hover .ItemName{
+    transform:none;
+}
+/* مكونات الوجبة*/
+.mewlCotant{
+    padding: 5px;
+}
+.mainmeal{
+    display: none;
+}
+
+.searchDiv{
+    display: none;
+    
+}
